@@ -1,0 +1,48 @@
+.fav-box{
+    margin-bottom: 15px;
+    border-bottom: 1px solid gray;
+}
+
+.fav-box .fav-content-1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.fav-box .fav-content-1 img{
+    height: 300px;
+    width: 200px;
+}
+
+.fav-box .fav-content-1 .fav-content-detail{
+    margin-left: 50px;
+}
+
+.fav-box .fav-content-1 .fav-content-detail span{
+    color: #ff1616;
+}
+
+.fav-box .fav-content-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fav-box .fav-content-2 button{
+    background-color: #ff1616;
+    color: white;
+    outline: none;
+    border: 1px solid gray;
+    padding: 5px 20px;
+    border-radius: 5px;
+
+}
+
+.fav-header{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid gray;
+}
+
+.fav-header h2{
+    color: #ff1616;
+}

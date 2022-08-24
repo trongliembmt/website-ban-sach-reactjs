@@ -1,0 +1,143 @@
+.register-form-area {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 15px 0;
+}
+.register-form-area .register-form {
+    background: #fff;
+    padding: 55px 60px 50px 50px;
+    box-shadow: 0px 10px 30px 0px rgba(13, 12, 13, 0.2);
+    min-width: 700px;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .register-form-area .register-form {
+        padding: 40px 20px 20px 26px;
+        min-width: 95%;
+    }
+}
+@media (max-width: 575px) {
+    .register-form-area .register-form {
+        padding: 40px 20px 20px 26px;
+        min-width: 95%;
+    }
+}
+.register-form-area .register-form .register-heading {
+    text-align: center;
+}
+.register-form-area .register-form .register-heading span {
+    color: #140c40;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    display: block;
+    text-transform: capitalize;
+}
+.register-form-area .register-form .input-box {
+    padding-top: 35px;
+    padding-bottom: 60px;
+}
+@media (max-width: 575px) {
+    .register-form-area .register-form .input-box {
+        padding-top: 28px;
+        padding-bottom: 20px;
+    }
+}
+.register-form-area .register-form .input-box .single-input-fields label {
+    display: block;
+    font-size: 17px;
+    margin-bottom: 6px;
+    color: #140c40;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-align: left;
+}
+.register-form-area .register-form .input-box .single-input-fields input {
+    border: 1px solid #c9c9c9;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 0 25px;
+    color: #000;
+}
+.register-form-area .register-form .input-box .single-input-fields input::placeholder {
+    color: #777777;
+    font-weight: 300;
+    font-size: 13px;
+}
+.register-form-area .register-form .register-footer {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .register-form-area .register-form .register-footer {
+        display: block;
+        text-align: start;
+    }
+}
+@media (max-width: 575px) {
+    .register-form-area .register-form .register-footer {
+        display: block;
+        text-align: start;
+    }
+}
+.register-form-area .register-form .register-footer p {
+    margin: 0;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .register-form-area .register-form .register-footer p {
+        margin-bottom: 28px;
+        display: block;
+    }
+}
+@media (max-width: 575px) {
+    .register-form-area .register-form .register-footer p {
+        margin-bottom: 28px;
+        display: block;
+    }
+}
+.register-form-area .register-form .register-footer p a {
+    color: #ff1616;
+    text-decoration: none;
+}
+
+.form-error{
+    border: 1px solid red !important;
+}
+
+.form-comfirm{
+    border: 1px solid rgb(8, 225, 29) !important;
+}
+
+.error-username{
+    float: right;
+    font-size: 15px;
+    color: red;
+    text-transform: none;
+}

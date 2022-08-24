@@ -1,0 +1,55 @@
+
+.table-body{
+    height: 350px;
+    overflow-y: auto;
+}
+
+.new-btn{
+    padding: 5px 40px;
+    outline: none;
+    background-color: #0d6efd;
+    color: white;
+    margin: 10px 0px;
+    border-radius: 3px;
+    border: 1px solid #0d6efd;
+}
+
+.new-btn:focus{
+    outline: none;
+}
+
+.new-btn:hover{
+    color: #0d6efd;
+    background-color: white;
+    box-sizing: initial;
+    border: 1px solid #0d6efd;
+    
+}
+.table-body table{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-body table img{
+    height: 70px;
+    width: 50px;
+}
+
+textarea.form-control-sm {
+    min-height: calc(7.5em + 0.5rem + 2px);
+}
+
+.new-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 189px;
+}
+
+.new-image img{
+    height: 300px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+

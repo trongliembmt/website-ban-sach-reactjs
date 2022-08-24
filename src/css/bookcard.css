@@ -1,0 +1,131 @@
+/* best-sell-carousel */
+.properties {
+    margin: 0 12px;
+}
+
+.listing-area .properties{
+    margin: 0px !important;
+}
+.properties:first-child {
+    margin-left: 0;
+}
+.properties:last-child {
+    margin-right: 0;
+    margin-left: 0;
+}
+.properties .properties-card {
+    background-color: #fff;
+}
+.properties .properties-card .properties-img img {
+    width: 100%;
+    border: 1px solid #eee1e0;
+    border-bottom: unset;
+}
+ .properties .properties-card .properties-caption {
+    padding: 14px 20px 2px 20px;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+}
+.properties .properties-card .properties-caption.properties-caption2 {
+    border: 1px solid #eee1e0;
+    border-top: 0;
+    
+
+}
+.properties .properties-card .properties-caption h3{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.properties .properties-card .properties-caption h3 a {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: #1a1a1a;
+    text-decoration: none;
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+     .properties .properties-card .properties-caption h3 a {
+        font-size: 16px;
+    }
+}
+.properties .properties-card .properties-caption P {
+    color: #9498a7;
+    font-size: 14px;
+    margin-bottom: 11px;
+}
+.properties .properties-card .properties-caption P span {
+    color: #ff1616;
+    font-size: 16px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+     .properties .properties-card .properties-caption P span {
+        font-size: 12px;
+    }
+}
+.properties .properties-card .properties-caption .properties-footer {
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+}
+@media (max-width: 575px) {
+     .properties .properties-card .properties-caption .properties-footer {
+        padding: 19px 10px 20px 12px;
+    }
+}
+.properties .properties-card .properties-caption .properties-footer .review .rating .p-rating-icon {
+    font-size: 13px;
+    color: #ff5700;
+}
+ .properties .properties-card .properties-caption .properties-footer .review p {
+    display: inline-block;
+    color: #9498a7;
+    font-size: 14px;
+}
+.properties .properties-card .properties-caption .properties-footer .review p span {
+    color: #ff7b2e;
+    font-size: 12px;
+}
+.properties .properties-card .properties-caption .properties-footer .price span {
+    cursor: pointer;
+    font-weight: 500;
+    color: #ff1616;
+    font-size: 22px;
+}
+.properties:hover .properties-caption {
+    box-shadow: 0px 15px 30px rgba(255, 22, 22, 0.1);
+}
+.properties:hover .properties-caption h3 a {
+    color: #ff1616;
+}
+
+.p-carousel-next{
+    position: absolute;
+    right: 30px;
+}
+
+.p-carousel-prev {
+    position: absolute;
+    z-index: 1;
+    left: 30px;
+
+}
+
+.p-carousel-next:hover{
+    background-color: #ff1616 !important;
+    color: white !important;
+}
+
+.p-carousel-prev:hover{
+    background-color: #ff1616 !important;
+    color: white !important;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
